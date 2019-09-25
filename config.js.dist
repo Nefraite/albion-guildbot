@@ -12,9 +12,9 @@ module.exports = {
     // The ID of the discord channel to post albion status infos to.
     statusChannelId: process.env.ALBION_STATUS_CHANNEL_ID
   },
-  guild: Exiva
+  guild: {
     // The name of your guild (or guilds, if the guild is large).
-    guilds: process.env.ALBION_GUILDS
+    guilds: "Exiva"
     ? process.env.ALBION_GUILDS.split(',') : [],
     // The alliance your guild belongs to
     alliance: process.env.ALBION_ALLIANCE
